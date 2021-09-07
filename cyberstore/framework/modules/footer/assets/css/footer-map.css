@@ -1,0 +1,144 @@
+/* ==========================================================================
+   Footer styles - begin
+   ========================================================================== */
+/* Button mixins - start */
+/* Button mixins - end */
+/* ==========================================================================
+   #Content bottom styles - begin
+   ========================================================================== */
+.mkd-content-bottom .mkd-content-bottom-inner {
+  box-sizing: border-box;
+}
+
+.mkd-content-bottom .mkd-content-bottom-inner .widget {
+  margin: 0;
+  background-color: transparent;
+}
+
+.mkd-content-bottom .mkd-content-bottom-inner.mkd-grid {
+  padding: 20px 0;
+}
+
+.mkd-content-bottom .mkd-content-bottom-inner.mkd-full-width {
+  padding: 20px;
+}
+
+/* ==========================================================================
+   #Content bottom styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Footer style - begin
+   ========================================================================== */
+.mkd-page-footer {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+.mkd-page-footer .mkd-footer-top-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+.mkd-page-footer .mkd-footer-top-holder .mkd-banner-section {
+  margin: 0 -15px 32px;
+}
+
+.mkd-page-footer .mkd-footer-top-holder .mkd-banner-section:before, .mkd-page-footer .mkd-footer-top-holder .mkd-banner-section:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.mkd-page-footer .mkd-footer-top-holder .mkd-banner-section .mkd-banner-widget {
+  width: 33.33%;
+  padding: 0 15px;
+  float: left;
+  margin: 0 0 30px;
+  background: transparent;
+  border-color: transparent;
+  box-sizing: border-box;
+}
+
+.mkd-page-footer .mkd-footer-top-holder .mkd-footer-top-alignment-center {
+  text-align: center;
+}
+
+.mkd-page-footer .mkd-footer-top-holder .mkd-footer-top-alignment-left {
+  text-align: left;
+}
+
+.mkd-page-footer .mkd-footer-top-holder .mkd-footer-top-alignment-right {
+  text-align: right;
+}
+
+.mkd-page-footer .mkd-footer-top-holder .mkd-footer-top-inner {
+  box-sizing: border-box;
+}
+
+.mkd-page-footer .mkd-footer-top-holder .mkd-footer-top-inner.mkd-grid {
+  padding: 53px 0;
+}
+
+.mkd-page-footer .mkd-footer-top-holder .mkd-footer-top-inner.mkd-full-width {
+  padding: 53px 50px;
+}
+
+.mkd-page-footer .mkd-footer-bottom-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #000;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.mkd-page-footer .mkd-footer-bottom-holder .mkd-grid-row .mkd-grid-col-6:first-child {
+  text-align: left;
+}
+
+.mkd-page-footer .mkd-footer-bottom-holder .mkd-grid-row .mkd-grid-col-6:nth-child(2) {
+  text-align: right;
+}
+
+.mkd-page-footer .mkd-footer-bottom-holder .mkd-grid-row .mkd-grid-col-4:first-child {
+  text-align: left;
+}
+
+.mkd-page-footer .mkd-footer-bottom-holder .mkd-grid-row .mkd-grid-col-4:nth-child(2) {
+  text-align: center;
+}
+
+.mkd-page-footer .mkd-footer-bottom-holder .mkd-grid-row .mkd-grid-col-4:nth-child(3) {
+  text-align: right;
+}
+
+.mkd-page-footer .mkd-footer-bottom-holder .mkd-footer-bottom-inner {
+  box-sizing: border-box;
+}
+
+.mkd-page-footer .mkd-footer-bottom-holder .mkd-footer-bottom-inner.mkd-grid {
+  padding: 22px 0;
+  border-top: 1px solid #312f2f;
+}
+
+.mkd-page-footer .mkd-footer-bottom-holder .mkd-footer-bottom-inner.mkd-full-width {
+  padding: 22px 50px;
+}
+
+/* ==========================================================================
+   Footer style - end
+   ========================================================================== */
+/* ==========================================================================
+   Footer styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../css/footer-map.css.map */

@@ -1,0 +1,83 @@
+/* ==========================================================================
+# Slide From Header Bottom search general style - start
+========================================================================== */
+
+.mkd-slide-from-header-bottom-holder {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    display: none;
+    padding: 25px;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid $default-border-color;
+    overflow: hidden;
+    z-index: 9999;
+    box-sizing: border-box;
+    
+    .mkd-fixed-header-appear &,
+    .mkd-sticky-header-appear &,
+    .mkd-mobile-header.mobile-header-appear & {
+        position: fixed;
+    }
+
+    .mkd-form-holder {
+        @include mkdRelativeHolderLayout;
+        border: 1px solid $default-border-color;
+        box-sizing: border-box;
+
+        .mkd-search-field,
+        .mkd-search-submit {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            float: left;
+            margin: 0;
+            height: 44px;
+            line-height: 42px;
+            color: $default-text-color;
+            background-color: transparent;
+            border: 0;
+            border-radius: 0;
+            outline: 0;
+            -webkit-appearance: none;
+            box-sizing: border-box;
+            @include mkdTransition(color 0.2s ease-out);
+        }
+
+        .mkd-search-field {
+            width: calc(100% - 40px);
+            padding: 0 10px 0 20px;
+            font-family: inherit;
+
+            &:focus {
+                color: $default-heading-color;
+            }
+        }
+
+        .mkd-search-submit {
+            width: 40px;
+            padding: 0 12px 0 0;
+            font-size: 15px;
+            cursor: pointer;
+
+            span {
+                display: block;
+                line-height: inherit;
+
+                &:before {
+                    display: block;
+                    line-height: inherit;
+                }
+            }
+
+            &:hover {
+                color: $default-heading-color;
+            }
+        }
+    }
+}
+/* ==========================================================================
+# Slide From Header Bottom search general style - end
+========================================================================== */
