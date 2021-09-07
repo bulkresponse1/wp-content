@@ -1,0 +1,67 @@
+.widget.widget_search {
+
+    form {
+        @include mkdRelativeHolderLayout();
+        clear: both;
+
+        > div {
+            @include mkdRelativeHolderLayout();
+            border-width: 1px;
+            border-style: solid;
+            border-color: $default-border-color;
+            box-sizing: border-box;
+        }
+    }
+
+    input,
+    button {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        float: left;
+        height: 52px;
+        font-family: inherit;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 52px;
+        color: $default-text-color;
+        background-color: transparent;
+        border: 0;
+        border-radius: 0;
+        outline: 0;
+        -webkit-appearance: none;
+        box-sizing: border-box;
+        @include mkdTransition(color .2s ease-out);
+    }
+
+    input {
+        width: calc(100% - 40px);
+        padding: 0 0 0 21px;
+
+        @include mkdPlaceholder {
+            color: inherit;
+        }
+    }
+
+    button {
+        width: 40px;
+        font-size: 20px;
+        color: $widget-text-color;
+        cursor: pointer;
+        @include mkdTransition(color .2s ease-in-out);
+
+        &:hover {
+            color: $first-main-color;
+        }
+
+        span {
+            display: block;
+            line-height: inherit;
+
+            &:before {
+                display: block;
+                line-height: inherit;
+            }
+        }
+    }
+}

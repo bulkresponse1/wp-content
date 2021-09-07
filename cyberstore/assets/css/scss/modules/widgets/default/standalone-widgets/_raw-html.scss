@@ -1,0 +1,10 @@
+.widget.mkd-raw-html-widget {
+    margin: 0;
+	
+	&.mkd-grid-auto-width {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		width: auto;
+	}
+}
