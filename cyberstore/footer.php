@@ -1,1 +1,0 @@
-<?php do_action( 'cyberstore_mikado_get_footer_template' );
